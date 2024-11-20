@@ -1,11 +1,11 @@
 
-import { NavAnchor } from "../atoms/NavAnchor"
+import { WrapAnchor } from "../atoms/WrapAnchor"
 
 export function NavItem ( { href, text } ){
 
     return(
         <li>
-            <NavAnchor href={href} text={text} />
+            <WrapAnchor href={href} text={text} />
         </li>
     )
 }
