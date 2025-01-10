@@ -6,7 +6,7 @@ type Props = {
 
 const ZueloLogo = ( { url, alt }: Props ) => {
   return (
-    <img src={url} alt={alt} />
+    <img src={url} alt={alt} className="w-20" />
   )
 }
 

@@ -1,21 +1,17 @@
-import { NavLinks } from "../data/data"
-
-
+import { NavLinks } from "../data/data";
 
 const NavItems = () => {
   return (
-    <ul>
-        {
-        NavLinks.map((link) => (
-            <li>
-                <a href={link.url} key={link.id}>
-                    {link.text}
-                </a>
-            </li>
-        ))
-        }
+    <ul className="flex items-center justify-center gap-14">
+      {NavLinks.map((link) => (
+        <li className="font-bold text-primary">
+          <a href={link.url} key={link.id} className="hover:text-quinary hover:transition-all hover:ease-in-out hover:duration-200">
+            {link.text}
+          </a>
+        </li>
+      ))}
     </ul>
-  )
-}
+  );
+};
 
-export default NavItems
+export default NavItems;
