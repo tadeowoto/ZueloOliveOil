@@ -5,7 +5,7 @@ import NavItems from "./NavItems";
 const MainNav = () => {
   return (
     <div className="absolute z-10 w-full">
-      <nav className="w-full h-16 flex justify-between items-center bg-black">
+      <nav className="w-full h-16 flex justify-between items-center bg-tramsparent">
         <div className="flex items-center ml-4">
           <ZueloLogo url={imagesData[0].url} alt="Logo Blanco" />
         </div>

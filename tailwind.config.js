@@ -13,6 +13,12 @@ export default {
         tertiary: '#D9D9D9',
         quaternary: '#9F9F9F',
         quinary: '#757575',
+        mainColor: '#CAA129',
+        fontColor: '#FFFF',
+      },
+      fontFamily: {
+        lora: ['Lora', 'serif'],
+        playfair: ['Playfair Display', 'serif'],
       }
     },
   },
